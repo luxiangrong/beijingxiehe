@@ -1,0 +1,19 @@
+{
+  "name": "beijingxiehe",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.3",
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.3",
+    "slick-carousel": "~1.5.8"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  }
+}
