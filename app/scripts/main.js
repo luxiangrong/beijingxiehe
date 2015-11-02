@@ -31,8 +31,11 @@
         }
         buildNewsSlider();
 
-        $('.col-side').height(Math.max($('.col-side').height(), $('.col-main').height()));
-        $('.col-main').height(Math.max($('.col-side').height(), $('.col-main').height()));
-
+        $(window).on('load', function(){
+            $('.col-side').height(Math.max($('.col-side').height(), $('.col-main').height()));
+            $('.col-main').height(Math.max($('.col-side').height(), $('.col-main').height()));
+        });
     });
+
+    
 })(jQuery);
