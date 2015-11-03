@@ -90,18 +90,53 @@
                     <div class="col-pack">
                         <div class="row">
                             <div class="col-xs-6 box-tongzhigonggao box-tongzhigonggao-1">
-                                <h3><i class="iconfont iconfont-plus pull-right">&#xe607;</i>捐赠新闻</h3>
+                                <div class="mask"></div>
+                                <h3>
+                                    <i class="iconfont iconfont-plus pull-right">&#xe607;</i>
+                                    捐赠新闻
+                                </h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">北京协和医学基金会专项基金年度使用绩效评</a></li>
+                                    <li><a href="#">北京协和医学基金会财务管理制度</a></li>
+                                    <li><a href="#">贫困救助专项基金”管理及使用暂行办法</a></li>
+                                    <li><a href="#">基金会专项基金年度使用绩效评</a></li>
+                                    <li><a href="#">北京协和医学基金会财务管理制度</a></li>
+                                </ul>
                             </div>
                             <div class="col-xs-6 box-tongzhigonggao box-tongzhigonggao-2">
+                                <div class="mask"></div>
                                 <h3><i class="iconfont iconfont-plus pull-right">&#xe607;</i>工作动态</h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">北京协和医学基金会专项基金年度使用绩效评</a></li>
+                                    <li><a href="#">北京协和医学基金会财务管理制度</a></li>
+                                    <li><a href="#">贫困救助专项基金”管理及使用暂行办法</a></li>
+                                    <li><a href="#">基金会专项基金年度使用绩效评</a></li>
+                                    <li><a href="#">北京协和医学基金会财务管理制度</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-6 box-tongzhigonggao box-tongzhigonggao-3">
+                                <div class="mask"></div>
                                 <h3><i class="iconfont iconfont-plus pull-right">&#xe607;</i>访问交流</h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">北京协和医学基金会专项基金年度使用绩效评</a></li>
+                                    <li><a href="#">北京协和医学基金会财务管理制度</a></li>
+                                    <li><a href="#">贫困救助专项基金”管理及使用暂行办法</a></li>
+                                    <li><a href="#">基金会专项基金年度使用绩效评</a></li>
+                                    <li><a href="#">北京协和医学基金会财务管理制度</a></li>
+                                </ul>
                             </div>
                             <div class="col-xs-6 box-tongzhigonggao box-tongzhigonggao-4">
+                                <div class="mask"></div>
                                 <h3><i class="iconfont iconfont-plus pull-right">&#xe607;</i>政策法规</h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">北京协和医学基金会专项基金年度使用绩效评</a></li>
+                                    <li><a href="#">北京协和医学基金会财务管理制度</a></li>
+                                    <li><a href="#">贫困救助专项基金”管理及使用暂行办法</a></li>
+                                    <li><a href="#">基金会专项基金年度使用绩效评</a></li>
+                                    <li><a href="#">北京协和医学基金会财务管理制度</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -143,6 +178,19 @@
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+    <script>
+    (function($) {
+        $(document).ready(function() {
+            $('.box-tongzhigonggao').on('mouseenter', function(){
+                $(this).find('.iconfont-plus').html('&#xe614;');
+            });
+            $('.box-tongzhigonggao').on('mouseleave', function(){
+                $(this).find('.iconfont-plus').html('&#xe607;');
+            });
+
+        });
+    })(jQuery);
+    </script>
 </body>
 
 </html>
